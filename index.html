@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Title</title>
-	</head>
-	<body>
-		<h1></h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<h1>Rock Paper Scissors</h1>
+	<p id='log'></p>
+	<div class='buttons'>
 		<button onclick="play('rock')">Rock</button>
 		<button onclick="play('paper')">Paper</button>
 		<button onclick="play('scissors')">Scissors</button>
-		<script src="script.js"></script>
-	</body>
+	</div>
+	<h2>Score</h2>
+	<p id='PlayerScore'></p>
+	<p id='ComputerScore'></p>
+	<script src="script.js"></script>
+  </body>
 </html>
